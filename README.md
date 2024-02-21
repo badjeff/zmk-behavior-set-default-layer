@@ -44,7 +44,7 @@ Now, update your `shield.keymap` adding the behaviors.
 
         keymap {
                 compatible = "zmk,keymap";
-                win_layer {
+                mac_layer {
                         // index 0 - default!
                         bindings = <
                               &sdl 1 // set default to win_layer
